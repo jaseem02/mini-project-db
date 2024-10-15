@@ -1,0 +1,35 @@
+body{
+    overflow-y: hidden;
+    margin: 0;
+}
+.interior{
+    width: 40%;
+    height: 70%;
+    background-color: rebeccapurple;
+    position: absolute;
+    text-align: center;
+    
+    top: 15%;
+    color: wheat;
+    font-size: xx-large;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 90%;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large;
+}
+#submit{
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+}
